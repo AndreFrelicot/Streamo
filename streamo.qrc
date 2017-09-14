@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>AnimatedEntity.qml</file>
+        <file>main.qml</file>
+        <file>HeaderControl.qml</file>
+        <file>FooterControl.qml</file>
+        <file>DataGizmo.qml</file>
+        <file>DataPlayground.qml</file>
+        <file>assets/pauseButton.png</file>
+        <file>assets/playButton.png</file>
+        <file>assets/playButton.svg</file>
+    </qresource>
+</RCC>
