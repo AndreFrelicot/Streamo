@@ -36,7 +36,7 @@ Item {
             anchors.top: parent.top
             anchors.bottom: parent.bottom
 
-            text: "192.168.0.26"
+            text: ""
 
             color: "white"
             font.pointSize: 40
@@ -44,6 +44,35 @@ Item {
 
             horizontalAlignment: Text.AlignHCenter
             verticalAlignment: Text.AlignVCenter
+
+
+            Text
+            {
+                id: placeHolderIPText
+                anchors.fill: parent
+
+                horizontalAlignment: Text.AlignHCenter
+                verticalAlignment: Text.AlignVCenter
+
+                opacity: 0.5
+                text: "Send to IP"
+                color: "white"
+                font.pointSize: 40
+                font.family: nunitoExtraBold.name
+
+                visible: !ipAddress.text
+            }
+
+            Rectangle
+            {
+                id: defaultText
+                visible: false
+                Text
+                {
+                    text: "Hello World"
+                }
+            }
+
         }
 
 
