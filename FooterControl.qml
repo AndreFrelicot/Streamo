@@ -11,6 +11,12 @@ Item {
     signal doPlayPause (bool playOrPause)
 
 
+    FontLoader
+    {
+        id: nunitoExtraBold
+        source: "qrc:/assets/Nunito/Nunito-ExtraBold.ttf"
+    }
+
     function getHost()
     {
         return ipAddress.text
@@ -34,6 +40,7 @@ Item {
 
             color: "white"
             font.pointSize: 40
+            font.family: nunitoExtraBold.name
 
             horizontalAlignment: Text.AlignHCenter
             verticalAlignment: Text.AlignVCenter

@@ -9,5 +9,65 @@
         <file>assets/pauseButton.png</file>
         <file>assets/playButton.png</file>
         <file>assets/playButton.svg</file>
+        <file>assets/Nunito/Nunito-Black.ttf</file>
+        <file>assets/Nunito/Nunito-BlackItalic.ttf</file>
+        <file>assets/Nunito/Nunito-Bold.ttf</file>
+        <file>assets/Nunito/Nunito-BoldItalic.ttf</file>
+        <file>assets/Nunito/Nunito-ExtraBold.ttf</file>
+        <file>assets/Nunito/Nunito-ExtraBoldItalic.ttf</file>
+        <file>assets/Nunito/Nunito-ExtraLight.ttf</file>
+        <file>assets/Nunito/Nunito-ExtraLightItalic.ttf</file>
+        <file>assets/Nunito/Nunito-Italic.ttf</file>
+        <file>assets/Nunito/Nunito-Light.ttf</file>
+        <file>assets/Nunito/Nunito-LightItalic.ttf</file>
+        <file>assets/Nunito/Nunito-Regular.ttf</file>
+        <file>assets/Nunito/Nunito-SemiBold.ttf</file>
+        <file>assets/Nunito/Nunito-SemiBoldItalic.ttf</file>
+        <file>assets/Nunito/OFL.txt</file>
+        <file>QOSC/libs/oscpack/ip/posix/NetworkingUtils.cpp</file>
+        <file>QOSC/libs/oscpack/ip/posix/UdpSocket.cpp</file>
+        <file>QOSC/libs/oscpack/ip/win32/NetworkingUtils.cpp</file>
+        <file>QOSC/libs/oscpack/ip/win32/UdpSocket.cpp</file>
+        <file>QOSC/libs/oscpack/ip/IpEndpointName.cpp</file>
+        <file>QOSC/libs/oscpack/ip/IpEndpointName.h</file>
+        <file>QOSC/libs/oscpack/ip/NetworkingUtils.h</file>
+        <file>QOSC/libs/oscpack/ip/PacketListener.h</file>
+        <file>QOSC/libs/oscpack/ip/TimerListener.h</file>
+        <file>QOSC/libs/oscpack/ip/UdpSocket.h</file>
+        <file>QOSC/libs/oscpack/osc/MessageMappingOscPacketListener.h</file>
+        <file>QOSC/libs/oscpack/osc/OscException.h</file>
+        <file>QOSC/libs/oscpack/osc/OscHostEndianness.h</file>
+        <file>QOSC/libs/oscpack/osc/OscOutboundPacketStream.cpp</file>
+        <file>QOSC/libs/oscpack/osc/OscOutboundPacketStream.h</file>
+        <file>QOSC/libs/oscpack/osc/OscPacketListener.h</file>
+        <file>QOSC/libs/oscpack/osc/OscPrintReceivedElements.cpp</file>
+        <file>QOSC/libs/oscpack/osc/OscPrintReceivedElements.h</file>
+        <file>QOSC/libs/oscpack/osc/OscReceivedElements.cpp</file>
+        <file>QOSC/libs/oscpack/osc/OscReceivedElements.h</file>
+        <file>QOSC/libs/oscpack/osc/OscTypes.cpp</file>
+        <file>QOSC/libs/oscpack/osc/OscTypes.h</file>
+        <file>QOSC/oscqml/osc_plugin.cpp</file>
+        <file>QOSC/oscqml/osc_plugin.h</file>
+        <file>QOSC/oscqml/osc_receiver.cpp</file>
+        <file>QOSC/oscqml/osc_receiver.h</file>
+        <file>QOSC/oscqml/osc_sender.cpp</file>
+        <file>QOSC/oscqml/osc_sender.h</file>
+        <file>QOSC/src/qoscargument.h</file>
+        <file>QOSC/src/qoscbundle.cpp</file>
+        <file>QOSC/src/qoscbundle.h</file>
+        <file>QOSC/src/qoscmessage.cpp</file>
+        <file>QOSC/src/qoscmessage.h</file>
+        <file>QOSC/src/qoscreceiver.cpp</file>
+        <file>QOSC/src/qoscreceiver.h</file>
+        <file>QOSC/src/qoscsender.cpp</file>
+        <file>QOSC/src/qoscsender.h</file>
+        <file>main.cpp</file>
+        <file>moc_osc_plugin.cpp</file>
+        <file>moc_osc_receiver.cpp</file>
+        <file>moc_osc_sender.cpp</file>
+        <file>moc_predefs.h</file>
+        <file>moc_qoscreceiver.cpp</file>
+        <file>moc_qoscsender.cpp</file>
+        <file>qrc_streamo.cpp</file>
     </qresource>
 </RCC>
