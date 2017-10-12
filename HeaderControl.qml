@@ -9,6 +9,12 @@ Item {
     id: headerControl
 
 
+    FontLoader
+    {
+        id: nunitoExtraBold
+        source: "qrc:/assets/Nunito/Nunito-ExtraBold.ttf"
+    }
+
 
     Rectangle
     {
@@ -22,18 +28,7 @@ Item {
             anchors.fill: parent
             color: "#4A52D1"
 
-            Text {
-                id: title
-                text: qsTr("STREAMER")
-                color: "white"
-                anchors.fill: parent
 
-                font.pointSize: 24
-
-                horizontalAlignment: Text.AlignHCenter
-                verticalAlignment: Text.AlignVCenter
-
-            }
 
             Rectangle {
                 id: headerUpMargin
@@ -76,7 +71,21 @@ Item {
                     width: parent.width * 0.5
                     x: leftControlRect.width
 
-                    color: "pink"
+                    color: "#4A52D1"
+
+                    Text {
+                        id: title
+                        text: qsTr("Data gizmo")
+                        color: "white"
+                        anchors.fill: parent
+
+                        font.pointSize: 32
+                        font.family: nunitoExtraBold.name
+
+                        horizontalAlignment: Text.AlignHCenter
+                        verticalAlignment: Text.AlignVCenter
+
+                    }
 
                     //opacity: 0.5
                 }
@@ -86,8 +95,20 @@ Item {
                     id: rightControlRect
                     height: parent.height
                     width: parent.width * 0.25
+                    //width: parent.width<parent.height?parent.width:parent.height
+
                     x: leftControlRect.width + titleTextRect.width
                     color: "lightgreen"
+
+
+                    Rectangle {
+                        id: testCircle
+                        height: parent.height
+                        width: parent.width<parent.height?parent.width:parent.height
+                        radius: width * 0.5
+                        color: "red"
+                        anchors.horizontalCenter: parent.horizontalCenter
+                    }
                 }
 
                 //opacity: 0.5
