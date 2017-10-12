@@ -50,8 +50,7 @@ anchors.fill:  parent
 
 //    }
 
-    //width: 800
-    //height: 500
+
 
     HeaderControl {
         id: header
@@ -219,4 +218,3 @@ anchors.fill:  parent
     }
 
 }
-
