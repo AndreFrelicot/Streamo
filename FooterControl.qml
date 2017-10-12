@@ -17,6 +17,14 @@ Item {
         source: "qrc:/assets/Nunito/Nunito-ExtraBold.ttf"
     }
 
+    FontLoader
+    {
+        id: nunitoRegular
+        source: "qrc:/assets/Nunito/Nunito-Regular.ttf"
+    }
+
+
+
     function getHost()
     {
         return ipAddress.text
@@ -40,7 +48,7 @@ Item {
 
             color: "white"
             font.pointSize: 40
-            font.family: nunitoExtraBold.name
+            font.family: nunitoRegular.name
 
             horizontalAlignment: Text.AlignHCenter
             verticalAlignment: Text.AlignVCenter
@@ -58,7 +66,7 @@ Item {
                 text: "Send to IP"
                 color: "white"
                 font.pointSize: 40
-                font.family: nunitoExtraBold.name
+                font.family: nunitoRegular.name
 
                 visible: !ipAddress.text
             }
