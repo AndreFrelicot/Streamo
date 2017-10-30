@@ -36,13 +36,14 @@ Item {
         anchors.fill: parent
         color: "#4A52D1"
 
+
         TextEdit {
             id: ipAddress
-            anchors.left: parent.left
+
             height: parent.height
             width: parent.width * 0.7
-            anchors.top: parent.top
-            anchors.bottom: parent.bottom
+
+            x: 30
 
             text: ""
 
@@ -50,7 +51,7 @@ Item {
             font.pointSize: 40
             font.family: nunitoRegular.name
 
-            horizontalAlignment: Text.AlignHCenter
+            //horizontalAlignment: Text.AlignHCenter
             verticalAlignment: Text.AlignVCenter
 
 
@@ -59,7 +60,9 @@ Item {
                 id: placeHolderIPText
                 anchors.fill: parent
 
-                horizontalAlignment: Text.AlignHCenter
+
+
+                horizontalAlignment: Text.AlignLeft
                 verticalAlignment: Text.AlignVCenter
 
                 opacity: 0.5
