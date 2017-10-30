@@ -105,7 +105,7 @@ anchors.fill:  parent
         y: parent.height * 0.2
         color: "white"
         width: parent.width
-        height: parent.height * 0.6
+        height: parent.height * 0.65
 
 
         transform: Rotation {
@@ -147,8 +147,8 @@ anchors.fill:  parent
     FooterControl {
         id: footer
      width: parent.width
-     height: parent.height * 0.2
-     y: parent.height * 0.8
+     height: parent.height * 0.15
+     y: parent.height * 0.85
 
      onDoPlayPause: {
 

@@ -94,7 +94,7 @@ Item {
 
             ctx.clearRect(0, 0, parent.width, parent.height)
             ctx.reset()
-            ctx.fillStyle = 'white'
+            ctx.fillStyle = 'grey'
             ctx.fillRect(0, 0, parent.width, parent.height)
 
             ctx.stroke()
