@@ -68,6 +68,5 @@
         <file>moc_predefs.h</file>
         <file>moc_qoscreceiver.cpp</file>
         <file>moc_qoscsender.cpp</file>
-        <file>qrc_streamo.cpp</file>
     </qresource>
 </RCC>
