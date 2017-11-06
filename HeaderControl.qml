@@ -79,8 +79,9 @@ Item {
                         color: "white"
                         anchors.fill: parent
 
-                        font.pointSize: 32
+                        font.pointSize: parent.height * 0.5
                         font.family: nunitoExtraBold.name
+                        font.bold: true
 
                         horizontalAlignment: Text.AlignHCenter
                         verticalAlignment: Text.AlignVCenter

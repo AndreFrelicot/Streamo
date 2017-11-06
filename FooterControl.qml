@@ -48,7 +48,7 @@ Item {
             text: ""
 
             color: "white"
-            font.pointSize: 40
+            font.pointSize: parent.height * 0.4
             font.family: nunitoRegular.name
 
             //horizontalAlignment: Text.AlignHCenter
@@ -68,7 +68,7 @@ Item {
                 opacity: 0.5
                 text: "Send to IP"
                 color: "white"
-                font.pointSize: 40
+                font.pointSize: parent.height * 0.4
                 font.family: nunitoRegular.name
 
                 visible: !ipAddress.text
@@ -119,6 +119,8 @@ Item {
             MouseArea {
                 id: playPause
                 anchors.fill: parent
+
+
 
                 onClicked: {
                     playImage.visible = !playImage.visible
