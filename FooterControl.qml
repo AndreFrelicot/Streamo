@@ -99,7 +99,7 @@ Item {
             Image {
                 id: playImage
                 anchors.fill: parent
-                anchors.margins: 30
+                anchors.margins: 20
                 visible: true
 
                 source: "/assets/playButton.png"
@@ -109,7 +109,7 @@ Item {
             Image {
                 id: pauseImage
                 anchors.fill: parent
-                anchors.margins: 30
+                anchors.margins: 20
                 visible: false
 
                 source: "/assets/pauseButton.png"
